@@ -4,6 +4,7 @@
 # Set default values.
 ---
 values:
+  enable: True
   pkg:
     name: TEMPLATE
   rootgroup: root

@@ -4,10 +4,12 @@
 {#- Get the `tplroot` from `tpldir` #}
 {%- set tplroot = tpldir.split('/')[0] %}
 {%- set sls_config_file = tplroot ~ '.config.file' %}
+{%- set sls_enable_check = tplroot ~ '.check' %}
 {%- from tplroot ~ "/map.jinja" import mapdata as TEMPLATE with context %}
 {%- from tplroot ~ "/libtofs.jinja" import files_switch with context %}
 
 include:
+  - {{ sls_enable_check }}
   - {{ sls_config_file }}
 
 TEMPLATE-subcomponent-config-file-file-managed:
