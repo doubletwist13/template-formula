@@ -3,7 +3,7 @@
 ---
 TEMPLATE:
   lookup:
-    enable: False
+    enable: false
     master: template-master
 
   # Using bash package and udev service as an example. This allows us to
