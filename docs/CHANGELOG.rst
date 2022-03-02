@@ -2,6 +2,76 @@
 Changelog
 =========
 
+`5.0.8 <https://github.com/saltstack-formulas/template-formula/compare/v5.0.7...v5.0.8>`_ (2022-02-23)
+----------------------------------------------------------------------------------------------------------
+
+Styles
+^^^^^^
+
+
+* fix typo (\ `68d5ba0 <https://github.com/saltstack-formulas/template-formula/commit/68d5ba0507ad0d10d51934f68fcea78470003669>`_\ )
+
+`5.0.7 <https://github.com/saltstack-formulas/template-formula/compare/v5.0.6...v5.0.7>`_ (2022-02-17)
+----------------------------------------------------------------------------------------------------------
+
+Bug Fixes
+^^^^^^^^^
+
+
+* **libmapstack:** allow mapping by booleans and numbers (\ `bb3a7ea <https://github.com/saltstack-formulas/template-formula/commit/bb3a7ea0b208eeb2b6472ca9cb011935032c0356>`_\ )
+
+Code Refactoring
+^^^^^^^^^^^^^^^^
+
+
+* **libmatchers:** match default type with docs (\ `8f847be <https://github.com/saltstack-formulas/template-formula/commit/8f847bebfd4809b9c4acbfc1c20c1738243f9fd7>`_\ )
+
+Styles
+^^^^^^
+
+
+* **libsaltcli:** fix comments to jinja comments (\ `e1735f4 <https://github.com/saltstack-formulas/template-formula/commit/e1735f47f8e7af13d8d3d4be9206851560e30c52>`_\ )
+
+`5.0.6 <https://github.com/saltstack-formulas/template-formula/compare/v5.0.5...v5.0.6>`_ (2022-02-15)
+----------------------------------------------------------------------------------------------------------
+
+Documentation
+^^^^^^^^^^^^^
+
+
+* **map.jinja:** fix path to post-map.jinja in docs (\ `d64cd75 <https://github.com/saltstack-formulas/template-formula/commit/d64cd75f62b7ad20f61de85e19534da492f55eda>`_\ )
+
+Tests
+^^^^^
+
+
+* **system:** add ``build_platform_codename`` [skip ci] (\ `65cf22c <https://github.com/saltstack-formulas/template-formula/commit/65cf22c436903a65f93b9f5e708d8639499d542b>`_\ )
+
+`5.0.5 <https://github.com/saltstack-formulas/template-formula/compare/v5.0.4...v5.0.5>`_ (2022-02-13)
+----------------------------------------------------------------------------------------------------------
+
+Bug Fixes
+^^^^^^^^^
+
+
+* **libsaltcli+libmatchers:** ensure Salt client API detection [skip ci] (\ `6eb2073 <https://github.com/saltstack-formulas/template-formula/commit/6eb2073d02ff8006dac86c59e683ae983ecccd25>`_\ )
+
+Code Refactoring
+^^^^^^^^^^^^^^^^
+
+
+* **shellcheck:** fix violation (\ `4ee6387 <https://github.com/saltstack-formulas/template-formula/commit/4ee6387bf97aeb9c965bd2638ba934208d00874c>`_\ )
+
+Continuous Integration
+^^^^^^^^^^^^^^^^^^^^^^
+
+
+* **gitlab-ci:** update ``dind-ruby-bionic`` (use Python 3.7 for pre-commit) (\ `8ff2152 <https://github.com/saltstack-formulas/template-formula/commit/8ff2152b32262fe2082f68e42532f3c0178f55b0>`_\ )
+* update linters to latest versions [skip ci] (\ `a284a56 <https://github.com/saltstack-formulas/template-formula/commit/a284a566b4284966c7bbbc9da7ad182083a60796>`_\ )
+* **kitchen+ci:** update with ``3004`` pre-salted images/boxes [skip ci] (\ `ea37971 <https://github.com/saltstack-formulas/template-formula/commit/ea379716bea3d9d93a88671b8c0ae368033dcd62>`_\ )
+* **kitchen+gitlab:** update for new pre-salted images [skip ci] (\ `fd34718 <https://github.com/saltstack-formulas/template-formula/commit/fd347183f992f2d0511986744f65c715445d7c5e>`_\ )
+* **proxy:** allow rubygems proxy in gemfile (\ `7109cfd <https://github.com/saltstack-formulas/template-formula/commit/7109cfd411804514607a70edc3339e011e1db1cc>`_\ )
+
 `5.0.4 <https://github.com/saltstack-formulas/template-formula/compare/v5.0.3...v5.0.4>`_ (2021-11-16)
 ----------------------------------------------------------------------------------------------------------
 
