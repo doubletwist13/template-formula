@@ -5,7 +5,7 @@
 {%- set tplroot = tpldir.split('/')[0] %}
 {%- from tplroot ~ "/map.jinja" import mapdata without context %}
 
-{% if not mapdata.enabled %}
+{% if not mapdata.enable %}
 TEMPLATE/enabled/false:
   test.configurable_test_state:
     - result: false
